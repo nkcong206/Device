@@ -16,7 +16,7 @@ public class Device {
     private Integer wattage;
 
     @ManyToOne
-    @JoinColumn(name="devicetype_id", nullable=false)
+    @JoinColumn(name="devicetype_id", referencedColumnName = "id", nullable=false)
     private DeviceType deviceType;
 
 
