@@ -1,6 +1,5 @@
 package com.example.Device.services;
 
-
 import com.example.Device.custom_exception.DeviceIdnotFound;
 import com.example.Device.custom_exception.DeviceTypeException;
 import com.example.Device.entities.Device;
